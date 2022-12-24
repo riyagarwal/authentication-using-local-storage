@@ -13,7 +13,7 @@ function Profile(props) {
       <p>
         <span>Password </span>: {password}{" "}
       </p>
-      <button> Log Out </button>
+      <button onClick={localStorage.clear}> Log Out </button>
     </>
   );
 }
